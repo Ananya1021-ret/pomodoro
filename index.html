@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pomodoro</title>
+  <link rel="icon" href = "sob.jpg"/>
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Pomodoro Timer</h1>
+    <div class="timer">
+      <p id="time">25:00</p>
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <h2>To-Do List</h2>
+    <ol id="todo-list">
+      <li><input type="checkbox" /> Finish HTML</li>
+    </ol>
+    <input type="text" id="new-task" placeholder="Add new task" />
+    <button id="add-task">Add</button>
+
+    <h3>Theme</h3>
+    <input type="color" id="color-picker" />
+
+    <div class="cat">
+      <img id="cat-img" href="Sleeping_cat.png" alt="Cat" />
+    </div>
+
+    <footer>
+      Study | <a href="https://github.com/Ananya1021-ret/pomodoro.git" target="_blank">GitHub</a>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
